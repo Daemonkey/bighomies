@@ -1,87 +1,104 @@
+.u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/pexels-daria-shevtsova-1680140.jpg");
+}
+
 .u-section-1 .u-sheet-1 {
-  min-height: 3068px;
-}
-
-.u-section-1 .u-text-1 {
-  margin: 20px auto 0;
-}
-
-.u-section-1 .u-text-2 {
-  margin: 20px 197px 0;
-}
-
-.u-section-1 .u-gallery-1 {
-  height: 2944px;
-  margin-top: 20px;
-  margin-bottom: 0;
-  grid-gap: 17px 17px;
-}
-
-.u-section-1 .u-gallery-inner-1 {
-  grid-template-columns: auto;
-  grid-gap: 17px 17px;
-}
-
-.u-section-1 .u-over-slide-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
-}
-
-.u-section-1 .u-over-slide-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
+  min-height: 450px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 675px;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-left: 97px;
-    margin-right: 97px;
-  }
-
-  .u-section-1 .u-gallery-1 {
-    height: 2428px;
-  }
-
-  .u-section-1 .u-gallery-inner-1 {
-    grid-template-columns: repeat(1, auto);
+  .u-section-1 {
+    background-position: 50% 50%;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1128px;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-gallery-1 {
-    height: 1860px;
+    min-height: 400px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 2093px;
-  }
-
-  .u-section-1 .u-gallery-1 {
-    height: 1395px;
+    min-height: 350px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1418px;
+    min-height: 280px;
+  }
+}.u-section-2 {
+  background-image: linear-gradient(#e9f2fa, #fef9e6);
+  min-height: 3188px;
+}
+
+.u-section-2 .u-gallery-1 {
+  height: 3068px;
+  grid-gap: 17px 17px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.u-section-2 .u-gallery-inner-1 {
+  grid-template-columns: auto;
+  grid-gap: 17px 17px;
+}
+
+.u-section-2 .u-over-slide-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-over-slide-2 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 {
+    min-height: 2610px;
   }
 
-  .u-section-1 .u-gallery-1 {
-    height: 878px;
+  .u-section-2 .u-gallery-1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 2530px;
+  }
+
+  .u-section-2 .u-gallery-inner-1 {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 {
+    min-height: 2008px;
+  }
+
+  .u-section-2 .u-gallery-1 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 1938px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 {
+    min-height: 1435px;
+  }
+
+  .u-section-2 .u-gallery-1 {
+    height: 1454px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 {
+    min-height: 909px;
+  }
+
+  .u-section-2 .u-gallery-1 {
+    height: 915px;
   }
 }

@@ -1,20 +1,218 @@
+.u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/pexels-daria-shevtsova-1680140.jpg");
+}
+
 .u-section-1 .u-sheet-1 {
+  min-height: 450px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 {
+    background-position: 50% 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 280px;
+  }
+}.u-section-2 {
+  background-image: url("images/kiwihug-zGZYQQVmXw0-unsplash.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
   min-height: 500px;
 }
 
-.u-section-1 .u-text-1 {
-  margin-bottom: 0;
-  margin-top: 200px;
+.u-section-2 .u-text-1 {
+  font-size: 6rem;
+  width: 606px;
+  font-weight: 700;
+  font-family: Roboto, sans-serif;
+  margin: 60px auto 0;
 }
 
-.u-section-1 .u-text-2 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
+.u-section-2 .u-line-1 {
+  width: 50px;
+  height: 3px;
+  margin: 9px auto 0;
 }
 
-.u-section-1 .u-text-3 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 60px;
+.u-section-2 .u-text-2 {
+  font-weight: 700;
+  line-height: 1.6;
+  width: 288px;
+  margin: 9px auto 0;
+}
+
+.u-section-2 .u-text-3 {
+  line-height: 2;
+  font-size: 1.125rem;
+  width: 651px;
+  margin: 20px auto 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 412px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 316px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 400px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 3.75rem;
+    width: auto;
+  }
+
+  .u-section-2 .u-text-3 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 450px;
+  }
+
+  .u-section-2 .u-text-3 {
+    width: 340px;
+  }
+}.u-section-3 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/pexels-daria-shevtsova-1680140.jpg");
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 400px;
+}
+
+.u-section-3 .u-text-1 {
+  font-size: 6rem;
+  font-family: "Special Elite";
+  text-shadow: 2px 2px 8px rgba(26,26,26,1);
+  margin: 90px auto 0;
+}
+
+.u-section-3 .u-line-1 {
+  width: 50px;
+  height: 3px;
+  animation-duration: 1000ms;
+  margin: 4px auto 0;
+}
+
+.u-section-3 .u-text-2 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,1);
+  width: 826px;
+  margin: 26px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 {
+    background-position: 50% 50%;
+  }
+
+  .u-section-3 .u-sheet-1 {
+    min-height: 330px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 253px;
+  }
+
+  .u-section-3 .u-text-2 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 190px;
+  }
+
+  .u-section-3 .u-text-1 {
+    font-size: 3.75rem;
+  }
+
+  .u-section-3 .u-text-2 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 120px;
+  }
+
+  .u-section-3 .u-text-1 {
+    font-size: 3rem;
+  }
+
+  .u-section-3 .u-text-2 {
+    width: 340px;
+  }
+}.u-section-4 {
+  background-image: url("images/kiwihug-zGZYQQVmXw0-unsplash.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-4 .u-sheet-1 {
+  min-height: 550px;
+}
+
+.u-section-4 .u-image-1 {
+  width: 570px;
+  height: 509px;
+  box-shadow: 0 2px 8px 0 rgba(128,128,128,1);
+  margin: 25px auto;
+}
+
+@media (max-width: 767px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 500px;
+  }
+
+  .u-section-4 .u-image-1 {
+    height: 482px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 353px;
+  }
+
+  .u-section-4 .u-image-1 {
+    height: 303px;
+    margin-bottom: -122px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
 }
